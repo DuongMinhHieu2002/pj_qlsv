@@ -16,7 +16,7 @@ namespace qlsv_pj
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Formmain());
+            Application.Run(new Formdangnhap());
         }
     }
 }
