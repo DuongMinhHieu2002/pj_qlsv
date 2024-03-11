@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8FA71E5D-103B-4676-8A85-2F56DEF4283B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>qlsv_pj</RootNamespace>
+    <AssemblyName>qlsv_pj</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="const.cs" />
+    <Compile Include="Formdangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formdangnhap.Designer.cs">
+      <DependentUpon>Formdangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formhelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formhelp.Designer.cs">
+      <DependentUpon>Formhelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formmain.Designer.cs">
+      <DependentUpon>Formmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formnguoidung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formnguoidung.Designer.cs">
+      <DependentUpon>Formnguoidung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formqlgv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formqlgv.Designer.cs">
+      <DependentUpon>Formqlgv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formsuasv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formsuasv.Designer.cs">
+      <DependentUpon>Formsuasv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formthemsv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formthemsv.Designer.cs">
+      <DependentUpon>Formthemsv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listuser.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="user.cs" />
+    <EmbeddedResource Include="Formdangnhap.resx">
+      <DependentUpon>Formdangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formhelp.resx">
+      <DependentUpon>Formhelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formmain.resx">
+      <DependentUpon>Formmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formnguoidung.resx">
+      <DependentUpon>Formnguoidung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formqlgv.resx">
+      <DependentUpon>Formqlgv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formsuasv.resx">
+      <DependentUpon>Formsuasv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formthemsv.resx">
+      <DependentUpon>Formthemsv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\qr.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

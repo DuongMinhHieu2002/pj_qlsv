@@ -1,0 +1,16 @@
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\bin\Release\qlsv_pj.exe.config
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\bin\Release\qlsv_pj.exe
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\bin\Release\qlsv_pj.pdb
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.csproj.AssemblyReference.cache
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formdangnhap.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formhelp.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formmain.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formnguoidung.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formqlgv.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formsuasv.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Formthemsv.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.Properties.Resources.resources
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.csproj.GenerateResource.cache
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.csproj.CoreCompileInputs.cache
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.exe
+C:\Users\Duong Minh Hieu\source\repos\qlsv_pj\obj\Release\qlsv_pj.pdb
